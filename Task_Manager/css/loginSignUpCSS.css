@@ -1,0 +1,114 @@
+/* Style for the header */
+.contentLogin{
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Style for the form */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+/* Style for the label */
+.label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Style for the input fields */
+.input {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the login button */
+.button {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  background-color: #ffcc99;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom:30px;
+}
+
+/* Style for the login button hover effect */
+.button:hover {
+  background-color: #cc6600;
+}
+
+/* Style for the footer */
+.footer {
+  font-size: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+/* Style for the footer link */
+.footer a {
+  color: #008CBA;
+  text-decoration: none;
+}
+
+/* Style for the footer link hover effect */
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Style for the social media icons */
+.bi-google {
+  font-size: 3rem;
+  margin-top: 20px;
+}
+
+.bi-linkedin {
+  font-size: 3rem;
+  margin-top: 20px;
+}
+
+.bi-facebook {
+  font-size: 3rem;
+  margin-top: 20px;
+}
+
+/* Style for the form icons */
+.form-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form-icons i {
+  font-size: 3rem;
+}
+
+/* Style for the icons container */
+.icons-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.icons-container a {
+  margin: 0 10px;
+}
+
+.btn-primary {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+}

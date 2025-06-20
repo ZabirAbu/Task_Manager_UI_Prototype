@@ -1,0 +1,168 @@
+/* sidebar style */
+.nav-link {
+  white-space: nowrap;
+}
+.sidebar {
+  background-color: #4682B4;
+  padding: 10px;
+  height: 100vh;
+  width: 210px !important;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar a {
+  color: #b3dbff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar a:hover {
+  color: #001b33;
+}
+
+.sidebar i {
+  font-size: 48px;
+  width: 50px;
+}
+
+.sidebar .active {
+  font-weight: bold;
+}
+
+.sidebar .nav-item:last-child {
+  position: fixed;
+  bottom: 0;
+}
+
+/* dashboard page style */
+#myChart {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.dashboard-page {
+  margin-left: 160px;
+}
+
+.upcoming-deadlines {
+  margin-top: 50px;
+}
+
+.upcoming-deadlines-table {
+  margin-top: 20px;
+}
+
+.high-priority {
+  background-color: #dc3545;
+}
+
+.medium-priority {
+  background-color: #ffc107;
+  color: #343a40;
+}
+
+.low-priority {
+  background-color: #28a745;
+}
+
+/* calendar page style */
+#calendar {
+  width: 70%;
+  height: 500px;
+  margin-left: 220px;
+}
+.calendar-container {
+  width: 80%; /* adjust the width as needed */
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#settings-heading {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#settings-form #save-changes-btn {
+  display: block;
+  margin: 0 auto;
+}
+
+/* programs page style */
+.icon-text {
+  font-weight: bold;
+}
+
+.icon-container i.bi-code-slash {
+  color: #FF5733;
+}
+
+.icon-container i.bi-envelope {
+  color: #b3b3ff;
+}
+
+.icon-container i.bi-newspaper {
+  color: #cccccc;
+}
+
+.icon-container i.bi-download {
+  color: #C70039;
+}
+
+.icon-container i.bi-truck {
+  color: #FFC300;
+}
+
+.icon-container i.bi-lightbulb {
+  color: #DAF7A6;
+}
+
+.tasks-page h1 {
+  /* CSS for the h1 element */
+  text-align: center;
+  font-size: 2em;
+}
+
+.tasks-page .icon-row {
+  /* CSS for the icon rows */
+  margin-bottom: 2em;
+}
+
+.tasks-page .icon-container {
+  /* CSS for the icon containers */
+  display: block;
+  text-align: center;
+  
+}
+
+.tasks-page .icon-container i {
+  /* CSS for the icon */
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.tasks-page .icon-container p {
+  /* CSS for the icon text */
+  margin-bottom: 0;
+}
+
+.icon-container {
+  background-color: white; /* default background color */
+}
+
+
+.icon-row {
+  margin-bottom: 100px;
+}
+
